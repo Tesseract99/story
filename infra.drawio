@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2024-01-07T10:29:45.392Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="_YA-LKxjnguX_SlzUfW6" version="22.1.17" type="github">
+  <diagram name="Page-1" id="fv-dC6ZYJrszBMAZ46dc">
+    <mxGraphModel dx="1318" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XVxo3omWLpl5ER81E-sH-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XVxo3omWLpl5ER81E-sH-1" target="XVxo3omWLpl5ER81E-sH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-1" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;APPLICATION SOURCE CODE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XVxo3omWLpl5ER81E-sH-2" target="XVxo3omWLpl5ER81E-sH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-2" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;GITHUB REPO&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XVxo3omWLpl5ER81E-sH-3" target="XVxo3omWLpl5ER81E-sH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-3" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;JENKINS PIPELINE&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-4" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;AWS ECR &lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XVxo3omWLpl5ER81E-sH-5" target="XVxo3omWLpl5ER81E-sH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-5" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;AWS EKS CLUSTER&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XVxo3omWLpl5ER81E-sH-6" target="XVxo3omWLpl5ER81E-sH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-6" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;TERRAFORM&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-15" value="&lt;div&gt;&lt;b&gt;commit to&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;repo&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-16" value="&lt;b&gt;on commit, trigger build+push of images&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-18" value="&lt;div&gt;&lt;b&gt;Listen for commits on the repo&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-19" value="&lt;b&gt;Take images from ECR&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XVxo3omWLpl5ER81E-sH-20" value="&lt;b&gt;Provision resources on AWS&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
